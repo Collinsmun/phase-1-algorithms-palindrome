@@ -9,6 +9,9 @@ function isPalindrome(word) {
   // }else{
   //   return 'Not a palindrome';
   function reverseInput(){
+  //   let a= word.split("");
+  //   let b=word.reverse("");
+  //   let c=b.join("");
     return word.split("").reverse("").join("");
   }
   const reverseWordInput=reverseInput(word);
